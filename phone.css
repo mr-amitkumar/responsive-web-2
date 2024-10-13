@@ -1,0 +1,39 @@
+/* Navigation Section */
+.navbar {
+    flex-direction: column;
+    position: fixed;
+}
+.navbar ul li a{
+    padding-bottom: 10px;
+}
+/* home section */
+#home {
+    height: 461px;
+    padding: 30px 18px;
+}
+
+#home::before {
+    height: 501px;
+}
+
+#home p {
+    font-size: 15px;
+}
+
+/* about section */
+#about div {   
+    height: 329px;
+}
+/* Services Section */
+#service {
+    flex-direction: column;
+}
+
+
+/* footer section */
+
+
+/* Utility Section */
+.h-primary {
+    font-size: 32px;
+}

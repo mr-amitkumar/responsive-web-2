@@ -1,0 +1,225 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: pink;
+}
+
+/* navbar section. */
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* logo section. */
+.logo {
+    margin: 1px 6px;
+    padding: 4px 12px;
+}
+
+.logo img {
+    height: 94px;
+    width: 94px
+}
+
+/* nav sectiom */
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar li {
+    list-style: none;
+
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 6px 19px;
+    color: white;
+    border-radius: 11px;
+    font-size: 1.2rem;
+}
+
+.navbar li a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+
+}
+
+/* home section. */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 190px;
+    height: 655px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: url('IMG/bg.jpg')no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#home h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#home p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+/* About section. */
+#about {
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    background-color: #c2d3d9;
+}
+
+#about div {
+    border: 2px solid brown;
+    border-radius: 11px;
+    height: 200px;
+    align-items: center;
+}
+
+
+/* Service Section. */
+#service {
+    display: flex;
+
+}
+
+#service .box {
+    border: 2px solid red;
+    margin: 18px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #c2d3d9;
+}
+
+#service .box img {
+    display: block;
+    margin: auto;
+    height: 116px;
+
+}
+
+#service .box p {
+    font-size: 0.9rem;
+    font-family: "Crimson Text", serif;
+}
+
+
+
+/* Feeedback Section. */
+.contact {
+    position: relative;
+}
+
+
+.contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('IMG/feed.jpg')no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+
+#feedback-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#feedback-box form {
+    width: 30px;
+}
+
+#feedback-box label {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#feedback-box div ::placeholder {
+    text-align: center;
+}
+
+#feedback-box input,
+#feedback-box textarea {
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+
+    /* Utility section. */
+    .h-primary {
+        font-size: 2.5rem;
+        padding: 14px
+        
+    }
+
+    .h-secondary {
+        padding: 13px;
+        font-size: 2.1rem;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 4px 26px;
+        margin: 12px;
+        border-radius: 9px;
+        background-color: lightblue;
+        font-size: 1.1rem;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .btn:hover {
+        color: red;
+        background-color: white;
+        text-decoration: underline;
+
+    }
